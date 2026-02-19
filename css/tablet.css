@@ -1,0 +1,28 @@
+@media screen and (min-width: 730px) and (max-width: 1100px) {
+  .blockes {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .block-first {
+    width: calc(100% / 2.2);
+    margin-left: 0;
+  }
+  .block-first:nth-child(1) {
+    width: 100%;
+  }
+  .block-first:nth-child(4) {
+    width: 100%;
+  }
+  .block-first__img {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .about{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about__section{
+    width: 40%;
+    margin-top: 20px;
+  }
+}
